@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Place Order</title>
+  <link rel="stylesheet" href="main.css"> <!-- optional -->
+</head>
+<body>
+  <form action="store_orders.php" method="POST">
+    <input type="hidden" name="order_name" id="order_name">
+    <input type="hidden" name="quantity" id="quantity">
+    <input type="hidden" name="total_price" id="total_price">
+
+    <input type="text" name="mob_no" placeholder="Mobile Number" required>
+    <input type="text" name="address" placeholder="Address" required>
+
+    <button type="submit">PLACE ORDER</button>
+</form>
+</body>
+</html>

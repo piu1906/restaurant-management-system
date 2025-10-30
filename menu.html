@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script>
+        function menuToggle() {
+          const toggleMenu = document.querySelector(".toggleMenu");
+          const navigation = document.querySelector(".navigation");
+          toggleMenu.classList.toggle("active");
+          navigation.classList.toggle("active");
+        }
+        </script>
+      </head>
+<body>
+    <section>
+        <header>
+            <a href="#"><h4 class="logo">The Swadistha Restro</h4></a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+       
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+    
+        </header>
+
+        <div class="container">
+            <div class="menu">
+                <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-once="true"><span>M</span>enu</h1>
+        <ul data-aos="fade-up" data-aos-duration="700"
+        data-aos-delay="20" data-aos-once="true">
+            <li class="list active" data-filter="mainCourse">Main</li>
+            <li class="list" data-filter="dessert">Dessert</li>
+            <li class="list" data-filter="snack">Snacks</li>
+            <li class="list" data-filter="bread">Breads</li>
+            <li class="list" data-filter="drink">Drinks</li>
+        </ul>  
+        <div class="product" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="50" data-aos-once="true">
+            <div class="itemBox mainCourse">
+                <img src="menu images/mainCourse1.jpg">
+                <div class="text">
+                    <h4>Chana Masala</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>50.00 </sup>
+                </div>
+                <button class="btn8">Add +</button>
+          </div>
+            
+            <div class="itemBox mainCourse">
+                <img src="menu images/mainCourse2.jpg">
+                <div class="text">
+                    <h4>Paneer Tikka Masala</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                    </i><br>
+                   <box-icon name='rupee' ></box-icon><sup>70.00 </sup>
+                </div>
+                <button class="btn8">Add +</button>
+            </div>
+
+            <div class="itemBox mainCourse">
+                <img src="menu images/mainCourse3.jpg">
+                <div class="text">
+                    <h4>Masala Dosa</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon><box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>60.00 </sup>
+                </div>
+                <button class="btn8">Add +</button>
+            </div>
+
+            <div class="itemBox mainCourse">
+                <img src="menu images/mainCourse4.jpg">
+                <div class="text">
+                    <h4>Mix Veg</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>40.00 </sup>
+                </div>
+                <button class="btn8">Add +</button>
+            </div>
+            
+            <div class="itemBox dessert">
+                <img src="menu images/dessert1.jpg">
+                <div class="text">
+                    <h4>Gulab Jamun</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>10.00 </sup>
+                </div>
+                <button class="btn5">Add +</button>
+          
+            </div>
+            
+            <div class="itemBox dessert">
+                <img src="menu images/dessert2.jpg">
+                <div class="text">
+                    <h4>Gajar Halwa</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>40.00</sup>
+                </div>
+                <button class="btn6">Add +</button>
+          
+                
+            </div>
+            <div class="itemBox dessert">
+                <img src="menu images/dessert3.jpg">
+                <div class="text">
+                    <h4>Ras Malai</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>20.00 </sup>
+                </div>
+                <button class="btn7">Add +</button>
+          
+            </div>            
+            
+            <div class="itemBox snack">
+                <img src="menu images/snack1.jpg">
+                <div class="text">
+                    <h4>Samosa</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+ 
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>10.00 </sup>
+                </div>
+                <button class="btn8">Add +</button>
+          
+            </div>
+            
+            <div class="itemBox snack">
+                <img src="menu images/snack2.jpg">
+                <div class="text">
+                    <h4>Veg Burger</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>70.00</sup>
+                </div>
+                <button class="btn9">Add +</button>
+          
+            </div>
+            <div class="itemBox snack">
+                <img src="menu images/snack3.jpg">
+                <div class="text">
+                    <h4>French Fries</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>40.00</sup>
+                </div>
+                <button class="btn10">Add +</button>
+          
+            </div>
+            
+            <div class="itemBox bread">
+                <img src="menu images/bread1.jpg">
+                <div class="text">
+                    <h4>Chappati</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>10.00 </sup>
+                </div>
+                <button class="btn11">Add +</button>
+          
+            </div>
+            
+            <div class="itemBox bread">
+                <img src="menu images/bread2.jpg">
+                <div class="text">
+                    <h4>Aloo Paratha</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>30.00 </sup>
+                </div>
+                <button class="btn12">Add +</button>
+          
+            </div>
+            <div class="itemBox bread">
+                <img src="menu images/bread3.jpg">
+                <div class="text">
+                    <h4>Laccha Paratha</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>20.00 </sup>
+                </div>
+                <button class="btn13">Add +</button>
+          
+            </div>
+
+            <div class="itemBox drink">
+                <img src="menu images/drink1.jpg">
+                <div class="text">
+                    <h4>Coke 750ml</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>40.00</sup>
+                </div>
+                <button class="btn14">Add +</button>
+          
+            </div>
+            <div class="itemBox drink">
+                <img src="menu images/drink3.jpg">
+                <div class="text">
+                    <h4>Coffee</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' color='#ffd700' ></box-icon>
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>50.00</sup>
+                </div>
+                <button class="btn15">Add +</button>
+          
+            </div>
+            
+            <div class="itemBox drink">
+                <img src="menu images/drink4.jpg">
+                <div class="text">
+                    <h4>Tea</h4>
+                    <i>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star' type='solid' color='#ffd700' ></box-icon>
+                        <box-icon name='star-half' type='solid' color='#ffd700' ></box-icon>
+                        
+                    </i><br>
+                    <box-icon name='rupee' ></box-icon><sup>10.00</sup>
+                </div>
+                <button class="btn16">Add +</button>
+          
+            </div>
+
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+
+    <div class="cart" data-aos="fade-up" data-aos-duration="1500"
+    data-aos-delay="70" data-aos-once="true">
+        
+        <ul>
+            <li>
+            <h3><span style="color: crimson;">Y</span>our Order</h3>
+        </li>
+        <li><box-icon name='cart-alt'></box-icon></li>
+        </ul>
+            <div class="cart-empty">
+            <h2>Your Cart is Empty</h2>
+            </div>
+            <table class="cartTable">
+                <tbody>
+                </tbody>
+            </table>
+            <ul>
+                <li style="font-weight: 600;">Your Total</li>
+                <li><box-icon name='rupee'></box-icon><sup id="Total">0.00</sup></li>
+            </ul>
+            <p style="font-size: 12px;color: rgb(0,0,0,.5);">
+            <i>(Pay on delivery is applicable.)</i></p>
+            <div class="formBox">
+                <form action="store_orders.php" method="post">
+                    <div class="inputBox">
+                         <input type="text" required="required" name="mob_no">
+                         <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required" name="address">
+                        <span>Address</span>
+                   </div>
+
+                    <input type="hidden" id="order_names" name="order_name">
+                    <input type="hidden" id="total_price" name="total_price">
+                   
+                   <div class="inputBox">
+                    <input type="submit" value="Place Order">
+               </div>
+                </form>
+            </div>
+        
+        </div>
+
+        </div>  
+</section>
+
+<div class="footer">
+           
+    <a href="#" ><h4 class="logo">The Swadistha Restro</h4></a>
+    <ul class="socialMedia">
+      <li><a href="#"><box-icon name='facebook' type='logo' color='grey' ></box-icon></a></li>
+      <li><a href="#"><box-icon name='twitter' type='logo' color='grey' ></box-icon></a></li>
+      <li><a href="#"><box-icon name='pinterest' type='logo' color='grey' ></box-icon></a></li>
+      <li><a href="#"><box-icon name='telegram' type='logo' color='#808080' ></box-icon></a></li>
+      <li><a href="#"><box-icon name='instagram' type='logo' color='#808080' ></box-icon></a></li>
+    </ul>
+    <p>&copy;2025 Shravani Shirke & Priyanka Bhapkar ,"The Swadistha Restro".</p>
+    <ul class="end">
+      <li><a href="#" style="color: grey;">Terms</a></li>
+      <li><a href="#" style="color: grey;">Conditions</a></li>
+      <li><a href="#" style="color: grey;">Legal</a></li>
+      <li><a href="#" style="color: grey;">FAQs</a></li>
+    </ul>
+   </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        let y=0;
+        let ordered_items = [];
+        
+        $('.itemBox').not(".mainCourse").hide('1000');
+        $('.list').click(function(){
+            const value= $(this).attr('data-filter')
+             $('.itemBox').not("."+value).hide('5000');
+                $('.itemBox').filter("."+value).show('5000');
+        })
+        $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+        $('button').click(function(){
+            $('.cart-empty').css('display','none');
+            $('table').css('display','flex');
+
+            var x=$(this).parent().children('.text').children('sup').html();
+            var name=$(this).parent().children('.text').children('h4').html();
+            ordered_items.push(name);
+            y=parseFloat(y)+parseFloat(x);
+            console.log(y)
+            var markup=('<tr style="width:100%"><td style="width:60%">'+name+'</td><td style="width:35%><box-icon name="rupee"></box-icon><sup>'+x+'</sup></td><td style="width:5%" class="remove"><box-icon name="x" color="#dc143c" ></box-icon></td></tr>')
+            tableBody=$('table tbody')
+            tableBody.append(markup);
+            $('#Total').text(y)
+            })
+        $(document).on('click','.remove',function(){
+           
+            var x=$(this).parent().children('td').children('sup').text();
+            ordered_items = ordered_items.filter(item => item !== removed_name);
+            $(this).parent().remove();
+            console.log(x)
+            y=parseFloat(y)-parseFloat(x)
+            $('#Total').text(y)
+           if(y==0)
+           {
+            $('.cart-empty').css('display','flex');
+            $('table').css('display','none');
+            }
+            
+        })
+        $('form').submit(function(){
+            
+            event.preventDefault(); 
+    
+            const order_string = ordered_items.join(', ');
+
+            $('#order_names').val(order_string);
+            $('#total_price').val(y);
+
+        
+            this.submit();
+            //alert('Order Placed');
+        })
+    })
+    
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    let cart = [];
+    let total = 0;
+
+    // Handle Add + button clicks
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+        button.addEventListener("click", function() {
+            let itemName = this.dataset.name;
+            let itemPrice = parseFloat(this.dataset.price);
+
+            // Check if already in cart
+            let existing = cart.find(x => x.name === itemName);
+            if (existing) {
+                existing.qty++;
+            } else {
+                cart.push({ name: itemName, price: itemPrice, qty: 1 });
+            }
+
+            updateCart();
+        });
+    });
+
+    function updateCart() {
+        total = 0;
+        let summary = "";
+        cart.forEach(item => {
+            total += item.price * item.qty;
+            summary += `<p>${item.name} x ${item.qty} = ₹${item.price * item.qty}</p>`;
+        });
+        document.getElementById("cart-summary").innerHTML = summary + `<strong>Total: ₹${total}</strong>`;
+    }
+
+    // Before submitting form → fill hidden inputs
+    document.querySelector("form").addEventListener("submit", function() {
+        document.getElementById("order_name").value = cart.map(i => i.name).join(", ");
+        document.getElementById("quantity").value = cart.map(i => i.qty).join(", ");
+        document.getElementById("total_price").value = total;
+    });
+</script>
+
+
+   
+    
+</body>
+</html> 
